@@ -13,3 +13,4 @@ class BookLoadedEvent extends BookEvent {
 class BookErrorEvent extends BookEvent {
   const BookErrorEvent();
 }
+

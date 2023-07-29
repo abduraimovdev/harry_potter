@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:harry_potter/screens/books_screen.dart';
-import 'package:harry_potter/screens/movies_screen.dart';
+import 'package:harry_potter/screens/movie_screen/movies_screen.dart';
 import 'package:harry_potter/screens/potions_screen.dart';
 import 'package:harry_potter/screens/spells_screen.dart';
 import 'package:harry_potter/screens/views/blue_background.dart';

@@ -26,6 +26,7 @@ dependencies:
 
   dio: ^5.3.0
   get_it: ^7.6.0
+  youtube_player_flutter: ^8.1.2
 
 dev_dependencies:
   flutter_test:

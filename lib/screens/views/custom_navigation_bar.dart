@@ -32,7 +32,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar> {
           width: double.infinity,
           height: 100,
           decoration: BoxDecoration(
-            color: Colors.grey.withOpacity(0.05),
+            color: Colors.black.withOpacity(0.3),
             border: Border(
               top: BorderSide(
                 color: Colors.white.withOpacity(0.2),

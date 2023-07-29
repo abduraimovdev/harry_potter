@@ -5,7 +5,7 @@ import 'package:harry_potter/common/apis/apis.dart';
 import 'package:harry_potter/common/core/service_locator.dart';
 import 'package:harry_potter/common/models/base_api.dart';
 import 'package:harry_potter/common/services/network_service.dart';
-import '../../common/models/Book_model.dart';
+import '../../common/models/book_model.dart';
 
 class BookBloc extends Bloc<BookEvent, BookState> {
   BookBloc() : super(const BookInitState(books: [])){

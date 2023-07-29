@@ -1,4 +1,4 @@
-import 'package:harry_potter/common/models/Book_model.dart';
+import 'package:harry_potter/common/models/book_model.dart';
 
 sealed class BookState {
   final List<Book>? books;

@@ -43,7 +43,7 @@ class MenuItem extends StatelessWidget {
           ],
         ),
       ) :  Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(5),
         child: Icon(
           icon,
           color: Colors.grey,

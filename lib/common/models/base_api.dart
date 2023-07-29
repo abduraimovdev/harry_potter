@@ -24,11 +24,11 @@ class BaseApi<T extends Categories> {
 
       category = switch (T) {
         (Book) => (response as List).map((e) => Book.fromJson(e)).toList(),
-      (Movie) => (response as List).map((e) => Movie.fromJson(e)).toList(),
-      (Spell) => (response as List).map((e) => Spell.fromJson(e)).toList(),
-      (Potion) => (response as List).map((e) => Potion.fromJson(e)).toList(),
-      (Character) => (response as List).map((e) => Character.fromJson(e)).toList(),
-      _ => [],
+        (Movie) => (response as List).map((e) => Movie.fromJson(e)).toList(),
+        (Spell) => (response as List).map((e) => Spell.fromJson(e)).toList(),
+        (Potion) => (response as List).map((e) => Potion.fromJson(e)).toList(),
+        (Character) => (response as List).map((e) => Character.fromJson(e)).toList(),
+        _ => [],
       }.cast<T>();
 
     }

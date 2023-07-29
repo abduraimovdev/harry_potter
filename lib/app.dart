@@ -4,6 +4,10 @@ import 'package:harry_potter/bloc/book_bloc/book_bloc.dart';
 import 'package:harry_potter/bloc/book_bloc/book_event.dart';
 import 'package:harry_potter/bloc/movie_bloc/movie_bloc.dart';
 import 'package:harry_potter/bloc/movie_bloc/movie_event.dart';
+import 'package:harry_potter/bloc/potion_bloc/potion_bloc.dart';
+import 'package:harry_potter/bloc/potion_bloc/potion_event.dart';
+import 'package:harry_potter/bloc/spell_bloc/spell_bloc.dart';
+import 'package:harry_potter/bloc/spell_bloc/spell_event.dart';
 import 'package:harry_potter/screens/main_screen.dart';
 
 class HarryApp extends StatelessWidget {
@@ -18,6 +22,12 @@ class HarryApp extends StatelessWidget {
         ),
         BlocProvider(
           create: (context) => BookBloc()..add(const BookLoadingEvent()),
+        ),
+        BlocProvider(
+          create: (context) => SpellBloc()..add(const SpellLoadingEvent()),
+        ),
+        BlocProvider(
+          create: (context) => PotionBloc()..add(const PotionLoadingEvent()),
         ),
       ],
       child: MaterialApp(
